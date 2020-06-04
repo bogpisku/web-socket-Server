@@ -1,0 +1,23 @@
+{
+  "name": "sockerServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^3.4.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "redis": "^3.0.2",
+    "socker.io": "0.0.0-alpha-beta",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
